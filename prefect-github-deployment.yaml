@@ -3,7 +3,7 @@
 ###
 name: Github storage deployment
 description: The main ETL function
-version: 77e923c2676ef6e03df1404aed2d0b29
+version: 1ca34484e4a858d805128736985fed87
 # The work queue that will handle this deployment's runs
 work_queue_name: default
 tags: []
@@ -24,7 +24,7 @@ infrastructure:
 ###
 ### DO NOT EDIT BELOW THIS LINE
 ###
-flow_name: etl_web_to_gcs
+flow_name: etl-web-to-gcs
 manifest_path: null
 storage:
   repository: https://github.com/lironesamoun/data-engineering-zoomcamp-2023-homework
@@ -36,7 +36,7 @@ storage:
   block_type_slug: github
   _block_type_slug: github
 path: ''
-entrypoint: flows/02_gcp/etl_web_to_gcs_github.py:etl_web_to_gcs
+entrypoint: week_2_workflow_orchestration/flows/02_gcp/etl_web_to_gcs_github.py:etl_web_to_gcs
 parameter_openapi_schema:
   title: Parameters
   type: object

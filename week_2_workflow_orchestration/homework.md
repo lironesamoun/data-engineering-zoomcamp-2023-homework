@@ -67,9 +67,14 @@ How many rows were processed by the script?
 
 - 88,019
 - 192,297
-- 88,605
+**- 88,605**
 - 190,225
 
+Need to create empty folder data/green on root for github
+```
+>prefect deployment build week_2_workflow_orchestration/flows/02_gcp/etl_web_to_gcs_github.py:etl_web_to_gcs -sb github/zoomcamp-github -o prefect-github-deployment -n "Github storage deployment"
+prefect deployment apply prefect-github-deployment.yaml 
+```
 
 
 ## Question 5. Email or Slack notifications
@@ -98,7 +103,7 @@ How many rows were processed by the script?
 - `125,268`
 - `377,922`
 - `728,390`
-- `514,392`
+**- `514,392`**
 
 
 ## Question 6. Secrets
@@ -107,7 +112,7 @@ Prefect Secret blocks provide secure, encrypted storage in the database and obfu
 
 - 5
 - 6
-- 8
+**- 8**
 - 10
 
 
