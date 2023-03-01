@@ -15,7 +15,7 @@ For this homework we will be using the FHVHV 2021-06 data found here. [FHVHV Dat
 - Execute spark.version.
 
 What's the output?
-- 3.3.2
+**- 3.3.2**
 - 2.1.4
 - 1.2.3
 - 5.4
@@ -33,7 +33,7 @@ What is the average size of the Parquet (ending with .parquet extension) Files t
 
 
 - 2MB
-- 24MB
+**- 24MB**
 - 100MB
 - 250MB
 </br></br>
@@ -48,7 +48,7 @@ Consider only trips that started on June 15.</br>
 
 - 308,164
 - 12,856
-- 452,470
+**- 452,470**
 - 50,982
 </br></br>
 
@@ -60,7 +60,7 @@ Consider only trips that started on June 15.</br>
 Now calculate the duration for each trip.</br>
 How long was the longest trip in Hours?</br>
 
-- 66.87 Hours
+**- 66.87 Hours**
 - 243.44 Hours
 - 7.68 Hours
 - 3.32 Hours
@@ -74,7 +74,7 @@ How long was the longest trip in Hours?</br>
 
 - 80
 - 443
-- 4040
+**- 4040**
 - 8080
 </br></br>
 
@@ -91,7 +91,7 @@ Using the zone lookup data and the fhvhv June 2021 data, what is the name of the
 - East Chelsea
 - Astoria
 - Union Sq
-- Crown Heights North
+**- Crown Heights North**
 </br></br>
 
 
